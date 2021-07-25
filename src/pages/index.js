@@ -1,21 +1,49 @@
 import * as React from "react"
-
+import '../css/index.css';
+import { SocialIcon } from 'react-social-icons';
 // styles
 const pageStyles = {
   color: "#232129",
   padding: 96,
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
+  fontFamily: 'Lexend',
 }
+
+const socialStyles = {
+  display: "flex",
+  justifyContent: "space-around",
+  marginRight: "40%",
+  marginLeft: "40%",
+  marginBottom: 20,
+}
+
+const hrStyles = {
+  marginBottom: 40,
+}
+
+
 const headingStyles = {
   marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
+  marginBottom: 15,
+  textAlign: "center",
+  color: "darkgreen",
+
+  fontSize: 64
+
 }
 const headingAccentStyles = {
   color: "#663399",
 }
 const paragraphStyles = {
   marginBottom: 48,
+}
+const paragraphCenterStyles = {
+  marginBottom: 48,
+  textAlign: "justify",
+  textAlignLast: "center",
+  maxWidth: "50%",
+
+  marginLeft: "auto",
+  marginRight: "auto"
 }
 const codeStyles = {
   color: "#8A6534",
@@ -129,22 +157,24 @@ const links = [
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
-      <title>Home Page</title>
+      <title>Kabir Nagrecha's Blog</title>
       <h1 style={headingStyles}>
-        Congratulations
-        <br />
-        <span style={headingAccentStyles}>— you just made a Gatsby site! </span>
-        <span role="img" aria-label="Party popper emojis">
-          🎉🎉🎉
-        </span>
+        Kabir Nagrecha
       </h1>
-      <p style={paragraphStyles}>
-        Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
-        update in real-time.{" "}
-        <span role="img" aria-label="Sunglasses smiley emoji">
-          😎
-        </span>
+      <div style={socialStyles}>
+          <SocialIcon url="https://twitter.com/KabirNagrecha"/>
+          <SocialIcon url="mailto:kabir.nagrecha@gmail.com"/>
+
+          <SocialIcon url="https://www.linkedin.com/in/kabir-nagrecha-952591152"/>
+
+        </div>
+      <hr width="60%" style={hrStyles}/>
+
+      <p style={paragraphCenterStyles}>
+          17-year-old CS PhD Student at UC San Diego researching Machine Learning Systems. Working to make large-scale ML ready for the real world. <br/> <br/>
+          Current Apple Intern working on Siri.
       </p>
+
       <ul style={listStyles}>
         <li style={docLinkStyle}>
           <a
