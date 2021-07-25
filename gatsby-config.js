@@ -6,6 +6,7 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "kabirnagrecha.com",
   },
+  
   plugins: [
     "gatsby-plugin-netlify-cms",
     "gatsby-plugin-image",
