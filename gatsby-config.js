@@ -1,12 +1,11 @@
 require("dotenv").config()
 
-
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://www.kabirnagrecha.com",
     title: "kabirnagrecha.com",
   },
-  
+
   plugins: [
     "gatsby-plugin-netlify-cms",
     "gatsby-plugin-image",
