@@ -20,6 +20,15 @@ const hrStyles = {
   marginBottom: 40,
 }
 
+const subheadingStyles = {
+  marginTop: 0,
+  marginBottom: 15,
+  textAlign: "center",
+  color: "black",
+
+  fontSize: 36
+
+}
 
 const headingStyles = {
   marginTop: 0,
@@ -54,13 +63,14 @@ const codeStyles = {
 }
 const listStyles = {
   marginBottom: 96,
-  paddingLeft: 0,
+  paddingTop: 20,
+
 }
 const listItemStyles = {
-  fontWeight: 300,
-  fontSize: 24,
-  maxWidth: 560,
+  fontWeight: 100,
+  fontSize: 18,
   marginBottom: 30,
+  display: "list-item",
 }
 
 const linkStyle = {
@@ -164,18 +174,46 @@ const IndexPage = () => {
       <div style={socialStyles}>
           <SocialIcon url="https://twitter.com/KabirNagrecha"/>
           <SocialIcon url="mailto:kabir.nagrecha@gmail.com"/>
-
           <SocialIcon url="https://www.linkedin.com/in/kabir-nagrecha-952591152"/>
 
         </div>
       <hr width="60%" style={hrStyles}/>
 
       <p style={paragraphCenterStyles}>
-          17-year-old CS PhD Student at UC San Diego researching Machine Learning Systems. Working to make large-scale ML ready for the real world. <br/> <br/>
+          17-year-old CS PhD Student at UC San Diego researching Machine Learning Systems. Working to make large-scale ML more viable. <br/> <br/>
           Current Apple Intern working on Siri.
       </p>
+      <h1 style={subheadingStyles}>
+          Awards
+      </h1>
+    <ul style={listStyles}>
 
-    
+      <li style={listItemStyles}> <a href="https://2021.sigmod.org/sigmod_student_research_competition.shtml">ACM SIGMOD Student Research Competition Winner</a> <strong>(2021)</strong> </li>
+
+      <li style={listItemStyles}> <a href="https://cse.ucsd.edu/undergraduate/cse-undergraduate-student-awards">UCSD CSE Excellence in Research Award</a> <strong>(2021)</strong> </li>
+
+      <li style={listItemStyles}> <a href="https://cra.org/about/awards/outstanding-undergraduate-researcher-award/">CRA Outstanding Undergraduate Researcher Honorable Mention</a> <strong>(2021)</strong> </li>
+
+      <li style={listItemStyles}> UCSD Jacobs School of Engineering Fellowship <strong>(2021)</strong></li>
+
+      <li style={listItemStyles}> UCSD Halicioglu Data Science Institute Fellowship <strong>(2021)</strong> </li>
+    </ul>
+
+    <h1 style={subheadingStyles}>
+        Publications
+    </h1>
+  <ul style={listStyles}>
+    <li style={listItemStyles}> <a href="https://adalabucsd.github.io/papers/TR_2021_Hydra.pdf"> Hydra: A Scalable and Optimized Data System for Large Multi-Model Deep Learning (Preprint)</a> <strong>(2021)</strong>  </li>
+    <li style={listItemStyles}> <a href="https://dl.acm.org/doi/abs/10.1145/3448016.3450571"> Model Parallel Model Selection for Deep Learning Systems (ACM SIGMOD ’21)</a> <strong>(2021)</strong>  </li>
+    <li style={listItemStyles}> <a href="https://openaccess.thecvf.com/content/CVPR2021/html/Wang_Gradient-Based_Algorithms_for_Machine_Teaching_CVPR_2021_paper.html"> Gradient-based Algorithms for Machine Teaching (CVPR ’21)</a> <strong>(2021)</strong>  </li>
+    <li style={listItemStyles}> <a href="https://adalabucsd.github.io/papers/2021_Cerebro_CIDR.pdf"> Cerebro: A Layered Data Platform for Scalable Deep Learning (CIDR ’21)</a> <strong>(2021)</strong>  </li>
+    <li style={listItemStyles}> <a href="https://dl.acm.org/doi/10.1145/3397461"> Incremental and Approximate Computations for Accelerating Deep CNN Inference (ACM TODS ’20)</a> <strong>(2021)</strong>  </li>
+    <li style={listItemStyles}> <a href="https://ieeexplore.ieee.org/abstract/document/9457906"> Satellite Image Atmospheric Air Pollution Prediction through Meteorological Graph Convolutional Network with Deep Convolutional LSTM (CSCI ’20)</a> <strong>(2021)</strong>  </li>
+    <li style={listItemStyles}> <a href="https://ieeexplore.ieee.org/abstract/document/9457991"> Sensor-Based Air Pollution Prediction Using Deep CNN-LSTM (CSCI ’20)</a> <strong>(2021)</strong>  </li>
+    <li style={listItemStyles}> <a href="https://journals.sagepub.com/doi/abs/10.1177/0361198120934796"> As-Encountered Prediction of Tunnel Boring Machine Performance Parameters using Recurrent
+Neural Networks (TRR ’20)</a> <strong>(2021)</strong>  </li>
+
+  </ul>
     </main>
   )
 }
