@@ -180,8 +180,7 @@ const IndexPage = () => {
       <hr width="60%" style={hrStyles}/>
 
       <p style={paragraphCenterStyles}>
-          17-year-old CS PhD Student at UC San Diego researching Machine Learning Systems. Working to make large-scale ML more viable. <br/> <br/>
-          Current Apple Intern working on Siri.
+          18-year-old CS PhD Student at UC San Diego researching Machine Learning Systems. Working to make large-scale ML more viable. <br/> <br/>
       </p>
       <h1 style={subheadingStyles}>
           Awards
@@ -203,7 +202,7 @@ const IndexPage = () => {
         Publications
     </h1>
   <ul style={listStyles}>
-    <li style={listItemStyles}> <a href="https://adalabucsd.github.io/papers/TR_2021_Hydra.pdf"> Hydra: A Scalable and Optimized Data System for Large Multi-Model Deep Learning (Preprint)</a> <strong>(2021)</strong>  </li>
+    <li style={listItemStyles}> <a href="https://adalabucsd.github.io/papers/TR_2021_Hydra.pdf"> Hydra: A Scalable and Optimized Data System for Large Multi-Model Deep Learning (Preprint)</a> <strong>(2022)</strong>  </li>
     <li style={listItemStyles}> <a href="https://dl.acm.org/doi/abs/10.1145/3448016.3450571"> Model Parallel Model Selection for Deep Learning Systems (ACM SIGMOD ’21)</a> <strong>(2021)</strong>  </li>
     <li style={listItemStyles}> <a href="https://openaccess.thecvf.com/content/CVPR2021/html/Wang_Gradient-Based_Algorithms_for_Machine_Teaching_CVPR_2021_paper.html"> Gradient-based Algorithms for Machine Teaching (CVPR ’21)</a> <strong>(2021)</strong>  </li>
     <li style={listItemStyles}> <a href="https://adalabucsd.github.io/papers/2021_Cerebro_CIDR.pdf"> Cerebro: A Layered Data Platform for Scalable Deep Learning (CIDR ’21)</a> <strong>(2021)</strong>  </li>
